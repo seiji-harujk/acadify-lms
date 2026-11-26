@@ -1,0 +1,35 @@
+{
+  "courses": [
+    {
+      "id": "inte401",
+      "code": "INTE401",
+      "title": "Cloud Computing (provisional)",
+      "icon": "☁",
+      "theme": "purple",
+      "description": "Explore the course's learning modules and presentations.",
+      "lessons": [
+        {
+          "id": "containers-demo",
+          "title": "Containers and Containerization",
+          "summary": "A sample module demonstrating how lessons are displayed.",
+          "objectives": ["Distinguish an image from a container.", "Explain how persistent storage works."],
+          "sections": [
+            {"title": "Containers", "text": "A container packages an application with the dependencies it needs and runs it in an isolated environment. Containers typically share the host operating system kernel."},
+            {"title": "Images and Dockerfiles", "text": "An image is a template used to create containers. A Dockerfile describes instructions for building an image."},
+            {"title": "Volumes", "text": "A volume stores data outside a container's writable layer, allowing data to persist when a container is replaced."}
+          ],
+          "presentation": null
+        }
+      ]
+    },
+    {
+      "id": "comp401",
+      "code": "COMP401",
+      "title": "Information Assurance and Security (provisional)",
+      "icon": "◇",
+      "theme": "green",
+      "description": "A placeholder course until the project scope is confirmed.",
+      "lessons": []
+    }
+  ]
+}
