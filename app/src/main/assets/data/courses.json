@@ -2,33 +2,69 @@
   "courses": [
     {
       "id": "inte401",
-      "code": "INTE401",
-      "title": "Cloud Computing (provisional)",
+      "code": "CLOUD",
+      "title": "Cloud Computing",
       "icon": "☁",
       "theme": "purple",
-      "description": "Explore the course's learning modules and presentations.",
+      "description": "Explore course concepts through short, structured lessons.",
       "lessons": [
         {
           "id": "containers-demo",
           "title": "Containers and Containerization",
-          "summary": "A sample module demonstrating how lessons are displayed.",
-          "objectives": ["Distinguish an image from a container.", "Explain how persistent storage works."],
-          "sections": [
-            {"title": "Containers", "text": "A container packages an application with the dependencies it needs and runs it in an isolated environment. Containers typically share the host operating system kernel."},
-            {"title": "Images and Dockerfiles", "text": "An image is a template used to create containers. A Dockerfile describes instructions for building an image."},
-            {"title": "Volumes", "text": "A volume stores data outside a container's writable layer, allowing data to persist when a container is replaced."}
+          "summary": "Explore the fundamentals of container technology.",
+          "objectives": [
+            "Distinguish an image from a container.",
+            "Explain how persistent storage works."
           ],
-          "presentation": null
+          "presentation": null,
+          "topics": [
+            {
+              "id": "section-1",
+              "title": "Containers",
+              "summary": "A container packages an application with the dependencies it needs and runs it in an isolated environment.",
+              "sections": [
+                {
+                  "title": "Containers",
+                  "text": "A container packages an application with the dependencies it needs and runs it in an isolated environment. Containers typically share the host operating system kernel."
+                }
+              ],
+              "slides": []
+            },
+            {
+              "id": "section-2",
+              "title": "Images and Dockerfiles",
+              "summary": "An image is a template used to create containers.",
+              "sections": [
+                {
+                  "title": "Images and Dockerfiles",
+                  "text": "An image is a template used to create containers. A Dockerfile describes instructions for building an image."
+                }
+              ],
+              "slides": []
+            },
+            {
+              "id": "section-3",
+              "title": "Volumes",
+              "summary": "A volume stores data outside a container's writable layer, allowing data to persist when a container is replaced..",
+              "sections": [
+                {
+                  "title": "Volumes",
+                  "text": "A volume stores data outside a container's writable layer, allowing data to persist when a container is replaced."
+                }
+              ],
+              "slides": []
+            }
+          ]
         }
       ]
     },
     {
       "id": "comp401",
-      "code": "COMP401",
-      "title": "Information Assurance and Security (provisional)",
+      "code": "IAS",
+      "title": "Information Assurance and Security",
       "icon": "◇",
       "theme": "green",
-      "description": "A placeholder course until the project scope is confirmed.",
+      "description": "Explore course concepts through short, structured lessons.",
       "lessons": []
     }
   ]

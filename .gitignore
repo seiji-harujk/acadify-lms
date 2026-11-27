@@ -36,3 +36,6 @@ secrets.properties
 # OS-generated files
 .DS_Store
 Thumbs.db
+
+# Private classroom learning materials
+/app/src/main/assets/classroom/
